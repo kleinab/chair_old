@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "babel-cli": "^6.18.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
@@ -14,5 +16,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "chair =====",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kleinab/chair.git"
+  },
+  "author": "Abigail Klein and Tyler Singer-Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kleinab/chair/issues"
+  },
+  "homepage": "https://github.com/kleinab/chair#readme"
 }
